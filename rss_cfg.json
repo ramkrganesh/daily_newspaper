@@ -1,0 +1,29 @@
+{
+  "india": {
+    "th": "https://www.thehindu.com/news/national/feeder/default.rss",
+    "th_states": "https://www.thehindu.com/news/states/feeder/default.rss",
+    "th_cities": "https://www.thehindu.com/news/cities/feeder/default.rss",
+    "toi_india": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
+    "toi_chennai": "https://timesofindia.indiatimes.com/rssfeeds/2950623.cms"
+  },
+  "world": {
+    "al_jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
+    "dw_topstories": "https://rss.dw.com/rdf/rss-en-top",
+    "dw_world": "https://rss.dw.com/rdf/rss-en-world",
+    "dw_europe": "https://rss.dw.com/rdf/rss-en-eu",
+    "dw_asia": "https://rss.dw.com/rdf/rss-en-asia",
+    "toi_usa": "https://timesofindia.indiatimes.com/rssfeeds_us/72258322.cms",
+    "wp_world": "https://feeds.washingtonpost.com/rss/world"
+  },
+  "economy": {
+    "toi_business": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms",
+    "th_economy": "https://www.thehindu.com/business/Economy/feeder/default.rss",
+    "th_markets": "https://www.thehindu.com/business/markets/feeder/default.rss",
+    "dw_business": "https://rss.dw.com/rdf/rss-en-bus",
+    "bloom": " https://www.bloomberg.com/feed"
+  },
+  "misc": {
+    "toi_nri": "https://timesofindia.indiatimes.com/rssfeeds/7098551.cms",
+    "th_cricket": "https://www.thehindu.com/sport/cricket/feeder/default.rss"
+  }
+}
