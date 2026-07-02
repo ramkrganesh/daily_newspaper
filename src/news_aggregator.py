@@ -40,6 +40,16 @@ def get_headlines_articles(_rss_cfg:dict)->tuple[dict,dict]:
             headlines_dict.update({srcs: [headln]})
     #end def
 
+    def _get_article(html_link)->str:
+        resp = requests.get(html_link)
+        webpage_extract = BeautifulSoup(resp.text, 'html.parser')
+        article_content = webpage_extract.find("div", class_="articlebodycontent")
+        p_tags = article_content.find_all('p')
+        paragraphs = [tag.get_text().strip() for tag in p_tags]
+        article_text = ''.join(paragraphs)
+        return article_text.strip()
+    #end def
+
     headlines_dict = {}
     articles = {}
     for news_type, sources in _rss_cfg.items():
@@ -52,8 +62,13 @@ def get_headlines_articles(_rss_cfg:dict)->tuple[dict,dict]:
                 news_item = headline + '\n' + summary.strip()
                 _append_headline(source, news_item)
                 logger.debug(f"{news_item}")
+
+                article = _get_article(entry.link)
+                article = _content_cleanup(article)
+                # Do not make multiple request at a higher frequency.
+                # Slow down to Not get your IP banned from fetching news content.
+                time.sleep(1)
             #end for
-            time.sleep(1)
         #end for
     #end for
     return headlines_dict,articles
