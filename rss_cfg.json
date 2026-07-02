@@ -1,27 +1,26 @@
 {
   "India": {
-    "th": "https://www.thehindu.com/news/national/feeder/default.rss",
-    "th_states": "https://www.thehindu.com/news/states/feeder/default.rss",
-    "th_cities": "https://www.thehindu.com/news/cities/feeder/default.rss",
-    "toi_india": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
-    "toi_chennai": "https://timesofindia.indiatimes.com/rssfeeds/2950623.cms"
+    "The_Hindu_TopStories": "https://www.thehindu.com/news/national/feeder/default.rss",
+    "Times_Of_India_National": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
+    "The_Hindu_States": "https://www.thehindu.com/news/states/feeder/default.rss",
+    "The_Hindu_Cities": "https://www.thehindu.com/news/cities/feeder/default.rss",
+    "Times_Of_India_Chennai": "https://timesofindia.indiatimes.com/rssfeeds/2950623.cms"
   },
   "World": {
-    "al_jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
-    "dw_topstories": "https://rss.dw.com/rdf/rss-en-top",
-    "dw_world": "https://rss.dw.com/rdf/rss-en-world",
-    "dw_europe": "https://rss.dw.com/rdf/rss-en-eu",
-    "dw_asia": "https://rss.dw.com/rdf/rss-en-asia",
-    "wp_world": "https://feeds.washingtonpost.com/rss/world"
+    "AL_Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
+    "DW_TopStories": "https://rss.dw.com/rdf/rss-en-top",
+    "DW_World": "https://rss.dw.com/rdf/rss-en-world",
+    "DW_Europe": "https://rss.dw.com/rdf/rss-en-eu",
+    "DW_Asia": "https://rss.dw.com/rdf/rss-en-asia",
+    "WashingtonPost": "https://feeds.washingtonpost.com/rss/world"
   },
   "Economy": {
-    "toi_business": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms",
-    "th_economy": "https://www.thehindu.com/business/Economy/feeder/default.rss",
-    "th_markets": "https://www.thehindu.com/business/markets/feeder/default.rss",
-    "dw_business": "https://rss.dw.com/rdf/rss-en-bus"
+    "Times_Of_India_Business": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms",
+    "The_Hindu_Economy": "https://www.thehindu.com/business/Economy/feeder/default.rss",
+    "The_Hindu_Markets": "https://www.thehindu.com/business/markets/feeder/default.rss",
+    "DW_business": "https://rss.dw.com/rdf/rss-en-bus"
   },
   "Miscellaneous": {
-    "toi_nri": "https://timesofindia.indiatimes.com/rssfeeds/7098551.cms",
-    "th_cricket": "https://www.thehindu.com/sport/cricket/feeder/default.rss"
+    "The_Hindu_Cricket": "https://www.thehindu.com/sport/cricket/feeder/default.rss"
   }
 }
